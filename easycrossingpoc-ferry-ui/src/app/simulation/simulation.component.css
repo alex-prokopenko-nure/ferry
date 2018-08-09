@@ -1,0 +1,58 @@
+.main-container {
+
+    margin-left: 60px;
+    float:left; 
+    border: solid rgb(185, 185, 255) 1px;
+    width: 33%;
+    padding: 10px;
+}
+
+.header {
+    display: flow-root;
+    font-size: 24px;
+}
+
+input {
+    display: inline-block;
+    margin-bottom: 1em;
+    margin-top: 1em;
+    font-size: 16px;
+    width: 45px;
+}
+
+p {
+    display: inline-block;
+    width: 45%;
+    font-size: 16px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    /* display: none; <- Crashes Chrome on hover */
+    -webkit-appearance: none;
+    margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+}
+
+.left-block {
+    display: inline-block;
+    width: 55%;
+}
+
+.right-block {
+    width: 35%;
+    display: inline-block;
+}
+
+button {
+    display: inline-block;
+    margin-top: 0;
+}
+
+.normal {
+    width: 60%;
+    margin-right: 20px;
+}
+
+.rigalo {
+    width: 150px;
+}

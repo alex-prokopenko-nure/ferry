@@ -1,0 +1,61 @@
+.main-container {
+    float: left;
+    width: 500px;
+    height: 200px;
+}
+
+.ferry-details {
+    float: left;
+    width: 65%;
+}
+
+.port-info {
+    float: right;
+    width: 35%;
+}
+
+.labels {
+    margin-left: 10px;
+    float: left;
+    width: 70%;
+}
+
+input {
+    margin-bottom: 1em;
+    margin-top: 1em;
+    font-weight: 550;
+    float: right;
+}
+
+.ferry-name {
+    margin-top: 18px;
+    font-size: 26px;
+    font-weight: 550;
+    width: 80px;
+    margin-bottom: 30px;
+    margin-right: 20%;
+    text-align: center;
+}
+
+.ferry-label {
+    font-size: 26px;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+.header {
+    font-size: 22px;
+    margin-bottom: 65px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    /* display: none; <- Crashes Chrome on hover */
+    -webkit-appearance: none;
+    margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+}
+
+.coords {
+    width: 50%;
+    margin-right: 5%;
+}
